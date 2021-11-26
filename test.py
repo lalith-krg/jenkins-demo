@@ -14,7 +14,7 @@ class testMult(unittest.TestCase):
 
     def test_mul3(self):
         result3 = multiplication(-1, -10)
-        self.assertEqual(result3, 10)
+        self.assertEqual(result3, 1)
 
 if __name__ == '__main__':
     unittest.main()
